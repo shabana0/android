@@ -1,0 +1,104 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#00aabb"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="Name"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Name"
+        android:drawableLeft="@drawable/name"
+        android:layout_margin="5dp"
+        android:hint="Enter your name "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Address"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Address"
+        android:drawableLeft="@drawable/address"
+        android:layout_margin="5dp"
+        android:hint="Enter your address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Phone Number"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/PhoneNumber"
+        android:drawableLeft="@drawable/phonenumber"
+        android:layout_margin="5dp"
+        android:hint="Enter your phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Email id"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Emailid"
+        android:drawableLeft="@drawable/mailid"
+        android:layout_margin="5dp"
+        android:hint="Enter your emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:text="User Name"
+
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Username"
+        android:drawableLeft="@drawable/username"
+        android:layout_margin="5dp"
+        android:hint="Enter your username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView android:text="Password"
+        android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Password"
+        android:drawableLeft="@drawable/password"
+        android:layout_margin="5dp"
+        android:hint="Enter your password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView android:text="Confirm Password"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/ConfirmPassword"
+
+
+        android:layout_margin="5dp"
+        android:hint="Enter your confirm password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Register"
+        android:id="@+id/Register"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="back"
+        android:id="@+id/back"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
